@@ -212,11 +212,12 @@
 
 #region 14cu sual
 
-//int[] x = [20, 34, 21, 98, 45, 12, 34, 65, 11, 34, 54, 30];
-//for (int i = 0; i< x.Length; i++) 
+
+//int[] x = {20, 34, 21, 98, 45, 12, 34, 65, 11, 34, 54, 30};
+//for (int i = 0; i < x.Length; i++)
 //{
 //    if (x[i] % 3 == 0)
-//    { 
+//    {
 //        Console.WriteLine(x[i]);
 //    }
 //}
@@ -228,8 +229,30 @@
 
 //yuxarida arrayin min max ve ededi orta tap
 
-
-
+//int[] x = { 20, 34, 21, 98, 45, 12, 34, 65, 11, 34, 54, 30 };
+//int max = x[0];
+//int min = x[0];
+//double cem = 0;
+//double count = 0;
+//for (int i = 0; i < x.Length; i++)
+//{
+//    if (max < x[i])
+//    {
+//        max = x[i];
+//    }
+//    if (min > x[i])
+//    {
+//        min = x[i];
+//    }
+//    if (true)
+//    {
+//        cem = cem + x[i];
+//        count++;
+//    }
+//}
+//Console.WriteLine("max: " + max);
+//Console.WriteLine("min: " + min);
+//Console.WriteLine("eded orta: " + cem / count);
 
 #endregion
 
