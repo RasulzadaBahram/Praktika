@@ -539,19 +539,36 @@
 
 #region 29ci sual
 
-for (int i = 1; i <= 100; i++)
-{
-    int sonu_yeddi = i % 10;
-    int bolunen_yeddi = i % 7;
-    if (sonu_yeddi == 7 || bolunen_yeddi == 0)
-    {
-        Console.Write(" ciz  ");
-    }
-    else
-    {
-        Console.Write(i + " ");
-    }
+//for (int i = 1; i <= 100; i++)
+//{
+//    int sonu_yeddi = i % 10;
+//    int bolunen_yeddi = i % 7;
+//    if (sonu_yeddi == 7 || bolunen_yeddi == 0)
+//    {
+//        Console.Write(" ciz  ");
+//    }
+//    else
+//    {
+//        Console.Write(i + " ");
+//    }
 
-}
+//}
+
+#endregion
+
+#region 30cu sual
+
+//int[] array = [10,12,22,10,32,22,16,32,22,20,22,32,10,10,23,23,15];
+//int count = 0;
+//for (int i = 0; i < array.Length; i++) 
+//{
+//    if (array[i] != 0) 
+//    {
+//        count++;
+//    }
+//}
+//Console.WriteLine(count);
+
+
 
 #endregion
