@@ -526,3 +526,32 @@
 //}
 
 #endregion
+
+
+#region 25ci sual
+//Random rny = new Random();
+//int kub=rny.Next(1, 101);
+//Console.WriteLine(kub);
+//Console.WriteLine(Math.Pow(kub,3));
+
+#endregion
+
+
+#region 29ci sual
+
+for (int i = 1; i <= 100; i++)
+{
+    int sonu_yeddi = i % 10;
+    int bolunen_yeddi = i % 7;
+    if (sonu_yeddi == 7 || bolunen_yeddi == 0)
+    {
+        Console.Write(" ciz  ");
+    }
+    else
+    {
+        Console.Write(i + " ");
+    }
+
+}
+
+#endregion
