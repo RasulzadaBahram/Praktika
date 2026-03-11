@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Classtime.PC_3_506_5\\Desktop\\Cff-task\\Lab\\Task.csproj",
+      "projectUniqueName": "C:\\Users\\Classtime.PC_3_506_5\\Desktop\\Praktika\\Lab\\Task.csproj",
       "projectName": "Task",
-      "projectPath": "C:\\Users\\Classtime.PC_3_506_5\\Desktop\\Cff-task\\Lab\\Task.csproj",
+      "projectPath": "C:\\Users\\Classtime.PC_3_506_5\\Desktop\\Praktika\\Lab\\Task.csproj",
       "packagesPath": "C:\\Users\\Classtime.PC_3_506_5\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Classtime.PC_3_506_5\\Desktop\\Cff-task\\Lab\\obj\\",
+      "outputPath": "C:\\Users\\Classtime.PC_3_506_5\\Desktop\\Praktika\\Lab\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

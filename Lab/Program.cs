@@ -572,3 +572,104 @@
 
 
 #endregion
+
+
+#region Method 1
+//internal class Program
+//{
+//    public static void Main(string[] args)
+//    {
+
+//        MinusOrPlus(Convert.ToInt32(Console.ReadLine()));
+//    }
+
+//    public static int MinusOrPlus(int num) 
+//    {
+//        if (num > 0)
+//        {
+//            Console.WriteLine("Musbet");
+//            return num;
+//        }
+//        Console.WriteLine("Menfi");
+//        return 0;
+//    }
+//}
+
+#endregion
+
+
+#region Method 2
+
+//internal class Program
+//{
+//    public static void Main(string[] args)
+//    {
+//        BiggerOne(Convert.ToInt32(Console.ReadLine()), Convert.ToInt32(Console.ReadLine()));
+//    }
+//    public static int BiggerOne(int num,int num1) 
+//    {
+//        if (num > num1)
+//        {
+//            Console.WriteLine(num);
+//            return 0;
+//        }
+//        else 
+//        {
+//            Console.WriteLine(num1);
+//            return 0;
+//        }
+//    }
+//}
+
+
+#endregion
+
+#region Method 3
+
+//internal class Program
+//{
+//    public static void Main(string[] args)
+//    {
+//        DivideByTwo(Convert.ToInt32(Console.ReadLine()));
+//    }
+//    public static int DivideByTwo(int num)
+//    {
+//        if (num % 2 == 0)
+//        {
+//            Console.WriteLine(num + " " + "2-e bolunur");
+//            return 0;
+//        }
+//        else
+//        {
+//            Console.WriteLine(num + " " + "2-e bolunmur");
+//            return 0;
+//        }
+//    }
+//}
+
+
+
+#endregion
+
+#region Method 4
+
+internal class Program
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine( Cubed(Convert.ToInt32(Console.ReadLine())));
+
+    }
+
+    public static double Cubed(int num)
+    {
+        //double restult=Math.Pow(num,3);
+        //Console.WriteLine(restult);
+        //return 0;
+        double restult = Math.Pow(num, 3);
+        return restult;
+
+    }
+}
+
+#endregion
