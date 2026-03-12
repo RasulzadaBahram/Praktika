@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SZIBlPLTaqM=",
+  "dgSpecHash": "if7Zec5GJtg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Behram\\Desktop\\CodeForF\\Tasks\\Task1\\Task1.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Behram\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.23\\microsoft.windowsdesktop.app.ref.8.0.23.nupkg.sha512",
-    "C:\\Users\\Behram\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.23\\microsoft.netcore.app.ref.8.0.23.nupkg.sha512",
-    "C:\\Users\\Behram\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.23\\microsoft.aspnetcore.app.ref.8.0.23.nupkg.sha512",
-    "C:\\Users\\Behram\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.23\\microsoft.netcore.app.host.win-x64.8.0.23.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\Classtime.PC_3_506_5\\Desktop\\Praktika\\Muh\\Task1.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

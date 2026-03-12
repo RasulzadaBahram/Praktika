@@ -1,5 +1,4 @@
 ﻿#region Task 1
-
 //Console.WriteLine("Meyveni daxil edin: ");
 //string meyve=Console.ReadLine();
 //meyve.Split();
@@ -207,4 +206,59 @@
 
 
 #endregion
+
+
+
+
+
+
+
+
+
+//1-25 ededlerin kvadratlarin cemi
+//class Program 
+//{
+//    public static void Main(string[] args) 
+//    {
+//        double sum = 0;
+//        for (int i = 1; i <= 25; i++)
+//        {
+//            sum+=Pow(i);
+//        }
+//        Console.WriteLine(sum);
+
+//    }   
+//    public static double Pow(int num) 
+//    {
+//        return Math.Pow(num, 2);
+//    }
+//}
+
+
+
+class Program
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine( cem(12, 7, 9, 23));
+    }
+    public static int cem(params int[] numbers)
+    {
+        int murekkebcem = 0;
+        for (int i = 0; i < numbers.Length; i++)
+        {
+            for (int j = 2; j < numbers[i]; j++)
+            {
+                if (numbers[i] % j == 0)
+                {
+                    murekkebcem += numbers[i];
+                    break;
+                }
+            }
+        }
+        return murekkebcem;
+
+    }
+}
+
 
