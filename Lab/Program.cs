@@ -1,5 +1,4 @@
-﻿
-#region 1ci sual
+﻿#region 1ci sual
 
 //2 ededin boyunu tapan alqoritm yaz Readline ile
 
@@ -556,6 +555,7 @@
 
 #endregion
 
+
 #region 30cu sual
 
 //int[] array = [10,12,22,10,32,22,16,32,22,20,22,32,10,10,23,23,15];
@@ -624,6 +624,7 @@
 
 #endregion
 
+
 #region Method 3
 
 //internal class Program
@@ -651,25 +652,173 @@
 
 #endregion
 
+
 #region Method 4
 
-internal class Program
-{
-    public static void Main(string[] args)
-    {
-        Console.WriteLine( Cubed(Convert.ToInt32(Console.ReadLine())));
+//using System.Diagnostics.Metrics;
 
-    }
+//internal class Program
+//{
+//    public static void Main(string[] args)
+//    {
+//        Console.WriteLine( Cubed(Convert.ToInt32(Console.ReadLine())));
 
-    public static double Cubed(int num)
-    {
-        //double restult=Math.Pow(num,3);
-        //Console.WriteLine(restult);
-        //return 0;
-        double restult = Math.Pow(num, 3);
-        return restult;
+//    }
 
-    }
-}
+//    public static double Cubed(int num)
+//    {
+//        //double restult=Math.Pow(num,3);
+//        //Console.WriteLine(restult);
+//        //return 0;
+//        double restult = Math.Pow(num, 3);
+//        return restult;
+
+//    }
+//}
 
 #endregion
+
+
+
+//31.Bir metod yazin, sizden 2 int deyer alsin, neticede yerleri deyismis cixsin. Meselen, (num1 = 1; num2 = 2; daxil edilerse, geriye num num1 = 2; num2 = 1 cixsin)
+
+//internal class Program
+//{
+//    public static void Main(string[] args)
+//    {
+
+//        int num = Convert.ToInt32(Console.ReadLine());
+//        int num1 = Convert.ToInt32(Console.ReadLine());
+//        ChangeDir(ref num, ref num1);
+
+
+//    }
+//    public static void ChangeDir(ref int num, ref int num1)
+//    {
+
+//        int a = num;
+//        num = num1;
+//        num1 = a;
+
+//        Console.WriteLine($"{num} {num1}");
+
+
+//    }
+//}
+
+//32.Bir metod yazın ki, ref ilə ötürülən ədədin üzərinə 10 əlavə etsin. (ref)
+
+
+//internal class Program
+//{
+//    public static void Main(string[] args)
+//    {
+//        int a = int.Parse(Console.ReadLine());
+//        Summery(ref a);
+
+
+//    }
+//    public static void Summery(ref int a)
+//    {
+//        a += 10;
+//        Console.WriteLine(a);
+//    }
+//}
+
+//33.Bir metod yazın ki, ededin digerine bolunmeini hesablasin (out). Burada qaliqla, resulti parametr olaraq isteyin.
+
+
+
+
+
+//34. 3 ədəd qəbul edən metod yazın və ən böyük və ən kiçik ədədi out ilə qaytarsın. (out) FindMinMax(int a, int b, int c, out int min, out int max)
+
+//internal class Program
+//{
+//    public static void Main(string[] args)
+//    {
+//        var a = int.Parse(Console.ReadLine());
+//        var b = int.Parse(Console.ReadLine());
+//        var c = int.Parse(Console.ReadLine());
+//        int min;
+//        int max;
+//        FindMinMax(a, b, c, out min, out max);
+
+//    }
+
+//    public static void FindMinMax(int a, int b, int c, out int min, out int max)
+//    {
+//        max = 0;
+//        min = 0;
+//        if (a > b && a > c)
+//        {
+//            max = a;
+//            if (b < c)
+//            {
+//                min = b;
+//            }
+//            else
+//            {
+//                min = c;
+//            }
+//        }
+//        else if (b > a && b > c)
+//        {
+//            max = b;
+//            if (a < c)
+//            {
+//                min = a;
+//            }
+//            else
+//            {
+//                min = c;
+//            }
+//        }
+//        else
+//        {
+//            max = c;
+//            if (a < b)
+//            {
+//                min = a;
+//            }
+//            else
+//            {
+//                min = b;
+//            }
+//        }
+//        Console.WriteLine(max);
+//        Console.WriteLine(min);
+//    }
+//}
+
+
+
+
+
+
+
+//internal class Program
+//{
+//    public static void Main(string[] args)
+//    {
+//        string ad=Console.ReadLine();
+//        string soyad=Console.ReadLine();
+//        string email=Console.ReadLine();
+//        string sifre=Console.ReadLine();
+//        string username;
+//        Register(ad,soyad,email,sifre,username);
+//    }
+
+//    public static void Register(string ad,string soyad,string email,string sifre,string username)
+//    { 
+//    for (int i = 0; i < 10000000; i++) {
+//            username=Console.ReadLine();
+//            if (username ==) 
+//            {
+            
+//            }
+//    }
+
+
+
+//}
